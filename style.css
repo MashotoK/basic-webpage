@@ -1,0 +1,110 @@
+/* Set font family and background color for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Apply styles to the header */
+  header {
+    background-color: #eee;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  /* Center the heading and add margin to the top */
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Add padding to the unordered list and remove bullets */
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  /* Add margin to the list items */
+  li {
+    margin: 20px 0;
+  }
+  
+  /* Style the links */
+  a {
+    text-decoration: none;
+    color: #0066cc;
+  }
+  
+  /* Change link color on hover */
+  a:hover {
+    color: #003366;
+  }
+  
+  /* Apply styles to the main content area */
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  /* Apply styles to the article section */
+  article {
+    width: 65%;
+    margin-bottom: 20px;
+  }
+  
+  .article-image {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  /* Apply styles to the aside section */
+  aside {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    color: #777;
+    margin-top: 0;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #eee;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Apply styles to the footer */
+  footer {
+    background-color: #777;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  a {
+    color: #fff;
+  }
+  
+  
