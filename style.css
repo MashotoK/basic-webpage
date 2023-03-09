@@ -1,139 +1,155 @@
 /* Set font family and background color for the body */
-body {
-    font-family: Arial, sans-serif;
+/* Give containers a width of 100% */
+
+    .containers{
+    box-sizing: border-box;
+    }
+    /* Use clearfix for floated elements */
+    .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+    
+    /* Use flexbox for historical places */
+    .historical-places {
+    display: flex;
+    }
+    
+    .historical-places .place {
+    width: calc(100% / 3);
+    }
+    
+    /* Apply styles to the header */
+    header {
     background-color: #DCAE96;
-  }
-  
-  /* Apply styles to the header */
-  header {
-    background-color: #DCAE96 ;
     text-align: center;
     padding: 20px;
-  }
-  
-  .header-image {
+    }
+    
+    .header-image {
     width: 150px;
     height: 150px;
     border-radius: 80%;
     float: left;
     object-fit: cover;
-  }
-  
-  /* Center the heading and add margin to the top */
-  h1 {
+    }
+    
+    /* Center the heading and add margin to the top */
+    h1 {
     text-align: left;
     margin-top: 50px;
-  }
-  
-  /* Add padding to the unordered list and remove bullets */
-  ul {
+    }
+    
+    /* Add padding to the unordered list and remove bullets */
+    ul {
     padding: 0;
     list-style: none;
-  }
-  
-  /* Add margin to the list items */
-  li {
+    }
+    
+    /* Add margin to the list items */
+    li {
     margin: 20px 0;
-  }
-  
-  /* Style the links */
-  a {
+    }
+    
+    /* Style the links */
+    a {
     text-decoration: none;
     color: #0066cc;
-  }
-  
-  /* Change link color on hover */
-  a:hover {
+    }
+    
+    /* Change link color on hover */
+    a:hover {
     color: #003366;
-  }
-  
-  /* Apply styles to the main content area */
-  main {
+    }
+    
+    /* Apply styles to the main content area */
+    main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
-  }
-  
-  /* Apply styles to the article section */
-  article {
+    }
+    
+    /* Apply styles to the article section */
+    article {
     width: 65%;
     margin-bottom: 20px;
-  }
-  
-  .article-image {
+    }
+    
+    .article-image {
     width: 100%;
     height: auto;
     margin-top: 20px;
-  }
-  
-  /* Apply styles to the aside section */
-  aside {
+    }
+    
+    /* Apply styles to the aside section */
+    aside {
     width: 30%;
     margin-bottom: 20px;
-  }
-  
-  h3 {
+    }
+    
+    aside h3 {
     color: #777;
     margin-top: 0;
-  }
-  
-  table {
+    }
+    
+    table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-  }
-  
-  th, td {
+    }
+    
+    th,
+    td {
     text-align: left;
     padding: 8px;
-  }
-  
-  th {
+    }
+    
+    th {
     background-color: #eee;
-  }
-  
-  tr:nth-child(even) {
+    }
+    
+    tr:nth-child(even) {
     background-color: #f2f2f2;
-  }
-  aside div {
+    }
+    
+    aside div {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     margin-bottom: 20px;
-  }
-  
-  .article-image {
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-  }
-  
-  @media screen and (min-width: 768px) {
-    aside div {
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: flex-start;
     }
     
     .article-image {
-      width: 48%;
-      margin-top: 0;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
     }
-  }
-  
-  
-  /* Apply styles to the footer */
-  footer {
+    
+    /* Apply styles for screen size greater than or equal to 768px */
+    @media screen and (min-width: 768px) {
+    aside div {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    }
+    
+    .article-image {
+    width: 48%;
+    margin-top: 0;
+    }
+    }
+    
+    /* Apply styles to the footer */
+    footer {
     background-color: #777;
     color: #fff;
     text-align: center;
     padding: 20px;
-  }
-  
-  a {
+    }
+    
+    footer a {
     color: #fff;
-  }
-  
-  
+    }
