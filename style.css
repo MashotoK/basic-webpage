@@ -12,11 +12,14 @@ display: table;
 
 /* Use flexbox for historical places */
 .historical-places {
-display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .historical-places .place {
-width: calc(100% / 3);
+    flex: 1 1 calc(33.33% - 20px);
+    margin-bottom: 20px;
 }
 
 /* Apply styles to the header */
@@ -142,20 +145,7 @@ aside div {
 aside div:last-of-type {
     margin-right: 0;
 }
-
-/* Apply flexbox styles to the items in a row */
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.tem {
-    flex: 1 1 calc(33.33% - 20px);
-    margin-bottom: 20px;
-}
-  
-      
+     
     
 /* Apply styles for screen size greater than or equal to 768px */
 @media screen and (min-width: 768px) {
