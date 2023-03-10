@@ -18,12 +18,9 @@
 }
 
 .historical-places .place {
-    flex: 1 1 calc(33.33% - 20px);
     margin-bottom: 20px;
-    width: calc(100%/3);
 }
-
-/* Apply styles to the header */
+    /* Apply styles to the header */
 header {
   background-image: url('images/fotor_2023-3-5_2_12_34.jpg');
   background-size: cover;
