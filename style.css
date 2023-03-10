@@ -28,10 +28,10 @@
     }
     
     .header-image {
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     border-radius: 0%;
-    float: right;
+    float: center;
     object-fit: cover;
     }
     
