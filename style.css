@@ -1,7 +1,7 @@
 /* Set font family and background color for the body */
 /* Give containers a width of 100% */
 
-    .containers{
+    .container{
     box-sizing: border-box;
     }
     /* Use clearfix for floated elements */
@@ -23,15 +23,15 @@
     /* Apply styles to the header */
     header {
     background-color: #DCAE96;
-    text-align: center;
+    text-align: left;
     padding: 20px;
     }
     
     .header-image {
     width: 150px;
     height: 150px;
-    border-radius: 80%;
-    float: left;
+    border-radius: 0%;
+    float: right;
     object-fit: cover;
     }
     
